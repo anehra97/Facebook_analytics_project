@@ -1,0 +1,40 @@
+CREATE TABLE facebook_post_analytics (
+    post_id INT PRIMARY KEY,
+    user_id INT,
+    user_name VARCHAR(100),
+    page_name VARCHAR(100),
+    post_type VARCHAR(50),
+    content_category VARCHAR(50),
+    post_content VARCHAR(200),
+    country VARCHAR(50),
+    language VARCHAR(50),
+    post_date DATE,
+    reach INT,
+    likes INT,
+    comments INT,
+    shares INT,
+    engagement_time_minutes INT
+);
+
+
+INSERT INTO facebook_post_analytics VALUES
+(1, 2001, 'Rahul Sharma', 'Tech Insights', 'Video', 'Technology', 'AI Revolution 2024', 'India', 'English', '2024-01-05', 150000, 12000, 1500, 800, 300000),
+(2, 2002, 'Sneha Verma', 'Food Lovers', 'Image', 'Food', 'Street Food in Mumbai', 'India', 'Hindi', '2024-01-06', 90000, 8000, 900, 500, 180000),
+(3, 2003, 'Amit Singh', 'Travel Diaries', 'Video', 'Travel', 'Trip to Paris', 'France', 'English', '2024-01-07', 180000, 15000, 2000, 1000, 350000),
+(4, 2004, 'Rohit Malhotra', 'Gaming Hub', 'Video', 'Gaming', 'Top PC Games 2024', 'USA', 'English', '2024-01-08', 220000, 20000, 3000, 1500, 450000),
+(5, 2005, 'Pooja Gupta', 'Fitness Freaks', 'Reel', 'Fitness', 'Morning Workout Tips', 'India', 'English', '2024-01-10', 130000, 11000, 1400, 700, 260000),
+(6, 2006, 'Manish Jain', 'Finance World', 'Video', 'Finance', 'Stock Market Guide', 'India', 'Hindi', '2024-01-12', 140000, 10000, 1300, 650, 280000),
+(7, 2007, 'Neha Patel', 'Daily Life', 'Image', 'Lifestyle', 'A Day in London', 'UK', 'English', '2024-01-14', 80000, 6000, 700, 400, 150000),
+(8, 2001, 'Rahul Sharma', 'Tech Insights', 'Video', 'Technology', 'Cloud Computing Basics', 'India', 'English', '2024-01-15', 170000, 14000, 1800, 900, 320000),
+(9, 2004, 'Rohit Malhotra', 'Gaming Hub', 'Reel', 'Gaming', 'Mobile Gaming Trends', 'USA', 'English', '2024-01-18', 250000, 22000, 3500, 1700, 500000),
+(10, 2002, 'Sneha Verma', 'Food Lovers', 'Video', 'Food', 'Best Cafes in Delhi', 'India', 'English', '2024-01-20', 95000, 8500, 1000, 550, 190000),
+(11, 2003, 'Amit Singh', 'Travel Diaries', 'Video', 'Travel', 'Swiss Alps Adventure', 'Switzerland', 'English', '2024-01-22', 160000, 13000, 1700, 850, 310000),
+(12, 2006, 'Manish Jain', 'Finance World', 'Reel', 'Finance', 'Crypto Tips 2024', 'India', 'English', '2024-01-25', 155000, 12500, 1600, 750, 300000),
+(13, 2005, 'Pooja Gupta', 'Fitness Freaks', 'Video', 'Fitness', 'Yoga for Beginners', 'India', 'Hindi', '2024-01-28', 120000, 9500, 1200, 600, 240000),
+(14, 2007, 'Neha Patel', 'Daily Life', 'Reel', 'Lifestyle', 'Shopping in London', 'UK', 'English', '2024-02-01', 85000, 7000, 800, 450, 160000),
+(15, 2001, 'Rahul Sharma', 'Tech Insights', 'Video', 'Technology', 'Python Coding Tutorial', 'India', 'English', '2024-02-03', 210000, 18000, 2500, 1200, 400000),
+(16, 2004, 'Rohit Malhotra', 'Gaming Hub', 'Video', 'Gaming', 'GTA Gameplay Live', 'USA', 'English', '2024-02-05', 230000, 21000, 3200, 1600, 470000),
+(17, 2002, 'Sneha Verma', 'Food Lovers', 'Reel', 'Food', 'Hyderabad Biryani Review', 'India', 'Hindi', '2024-02-07', 105000, 9000, 1100, 600, 200000),
+(18, 2003, 'Amit Singh', 'Travel Diaries', 'Image', 'Travel', 'Thailand Beaches', 'Thailand', 'English', '2024-02-10', 175000, 14000, 1900, 900, 330000),
+(19, 2006, 'Manish Jain', 'Finance World', 'Video', 'Finance', 'Budget Planning Guide', 'India', 'English', '2024-02-12', 145000, 11500, 1500, 700, 290000),
+(20, 2005, 'Pooja Gupta', 'Fitness Freaks', 'Reel', 'Fitness', 'Home Workout Routine', 'India', 'English', '2024-02-15', 135000, 10500, 1300, 650, 270000);
